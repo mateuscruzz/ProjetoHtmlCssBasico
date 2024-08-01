@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    background-color:   rgb(221, 221, 221);
+    font-family: 'Raleway', sans-serif;
+}
+
+#he2{
+  font-weight: bold;
+  margin-left: 150px;
+  width: 200px;
+  cursor: pointer;
+}
+
+#he2:hover 
+
+{ color: rgb(182, 182, 5); 
+transition: 0.5s;
+opacity: 0.7;
+}
+
+header{
+    display: grid;
+    height: 70px;
+    grid-template-columns:140px auto 230px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px ;
+}
+  
+  #logo{
+    display: grid;
+    width: 320px;
+    background-color: rgb(34, 34, 34);
+  }
+  
+  #imglogo{
+    align-self: center;
+    justify-self: center;
+  }
+  
+  #meio{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  li{
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+    align-self: center;
+    color: black;
+    cursor: pointer;
+  }
+  
+  li:hover 
+  { color: rgb(182, 182, 5); 
+  transition: 0.5s;
+  opacity: 0.7;
+  }
+
+  .nonet{
+  text-decoration: none;
+  align-self: center;
+  }
+
+  #logocenter{
+    display: grid;
+  }
+  
+  #fim{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    border-left: solid 2px black;
+  }
+  
+  .himg{
+    align-self: center;
+    cursor: pointer;
+  }
+
+  main{
+    display: grid;
+    margin: 13%;
+    margin-top: 80px;
+    width: 75%;
+    height: 2500px;
+  }
+
+
+  #pre{
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px;
+  }
+
+  .preimg{
+    width: 300px;
+    align-self: center;
+    justify-self: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .produtos{
+    display: grid;
+    background-color: white;
+    justify-self: center;
+    margin: 15px;
+    width: 420px;
+    height: 480px;
+    box-shadow: 2px 2px 10px ;
+    border-radius: 10px;
+   }
+
+   #containerprod{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+   }
+
+   .produtos p {
+    justify-self: center;
+    font-weight: bold;
+    cursor: pointer;
+   }
+
+   .produtos p:hover { 
+    color: rgb(182, 182, 5); 
+  transition: 0.5s;
+  opacity: 0.7;
+  }
+
+  .prodspan{
+    text-align: center;
+    color: rgb(151, 151, 0);
+  }
+
+  .alignt{
+    text-align: center;
+  }
+
+  footer{
+    display: grid;
+    width: 100%;
+    height: 200px;
+    margin-top: 230px;
+    border: solid 1px black;
+    background-color: black;
+    grid-template-columns:40% auto 40%;
+  }
+  
+  #footer1{
+    display: grid;
+    border-right: 2px solid yellow;
+  }
+  
+  .textf{
+    color: white;
+    align-self: center;
+    justify-self: end;
+    margin: 35px;
+    cursor: pointer;
+  }
+  
+  #textf1{
+    color: white;
+    align-self: center;
+    justify-self: start;
+    margin: 35px;
+    cursor: pointer;
+  }
+  
+  
+  #footer2{
+    display: grid;
+  }
+  
+  #logof{
+    align-self: start;
+    justify-self: center;
+  }
+  #ulff{
+    position: relative;
+    right: 18px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ulf{
+    display: flex;
+  }
+  #footer3{
+    display: grid;
+    border-left: 2px solid yellow;
+  }
+
+  .spanf{
+    color: rgb(167, 167, 0);
+    margin-left: 15px;
+  }
+  
+  .spanf1{
+    color: rgb(167, 167, 0);
+    margin-left: 32px;
+  }
